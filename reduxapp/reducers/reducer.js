@@ -43,7 +43,7 @@ export function listProductsreducer(state = [], action) {
       // state = Object.assign({}, state)
       return [...state, addProductReducer(undefined, action)];
     default:
-      return  state;
+      return state;
   }
 }
 
